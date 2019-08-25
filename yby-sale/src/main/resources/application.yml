@@ -42,3 +42,7 @@ token:
   cookieName: AUTH_TOKEN
   #181服务域名列表 - 涉及登陆用户的服务域名必填
   #serverDomains:localhost,181.com
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

@@ -87,6 +87,7 @@ public final class ResponseBean<T> implements Serializable {
      * */
     public ResponseBean<T> success(){
         this.status = ResponseStatusEnum.SUCCESS.getCode();
+        this.msg = ResponseStatusEnum.SUCCESS.getPhraseCN();
         return this;
     }
 
@@ -95,6 +96,7 @@ public final class ResponseBean<T> implements Serializable {
      * */
     public ResponseBean<T> failed(){
         this.status = ResponseStatusEnum.FAILED.getCode();
+        this.msg = ResponseStatusEnum.FAILED.getPhraseCN();
         return this;
     }
 

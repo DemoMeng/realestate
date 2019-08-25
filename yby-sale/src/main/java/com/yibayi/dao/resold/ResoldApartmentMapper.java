@@ -1,7 +1,7 @@
 package com.yibayi.dao.resold;
 
-import com.yibayi.bean.entity.resold.ResoldApartment;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.yibayi.bean.entity.resold.ResoldApartment;
 
 /**
  * <p>
@@ -13,4 +13,9 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface ResoldApartmentMapper extends BaseMapper<ResoldApartment> {
 
+    int assetRecordArea(Long id);
+
+    int assetRecordSale(Long id);
+
+    int assetRecordDone(Long id);
 }
