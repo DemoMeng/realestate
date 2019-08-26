@@ -33,6 +33,7 @@ public class ResoldApartmentController extends BaseController {
     /**
      * @Description 业主主页统计
      * @Date:2019年8月26日10:00:18
+     * @Author:mengqizhang
      */
     @RequestMapping(value = "/assetRecord")
     @ResponseBody
@@ -44,6 +45,7 @@ public class ResoldApartmentController extends BaseController {
     /*
     * @Description 业主主页房源
     * @Date:2019年8月26日10:00:18
+    * @Author:mengqizhang
     * */
     @RequestMapping(value = "/resoldApartment")
     @ResponseBody
